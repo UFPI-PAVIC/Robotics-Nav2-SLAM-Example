@@ -1,0 +1,244 @@
+[0.648s] Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node:/opt/ros/humble /usr/bin/cmake --build /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces -- -j4 -l4
+[1.343s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.343s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.344s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.345s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.785s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.274s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.351s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.351s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.352s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.569s] -- Added test 'lint_cmake' to check CMake code style
+[4.571s] -- Added test 'xmllint' to check XML markup files
+[4.583s] -- Configuring done
+[4.698s] -- Generating done
+[4.707s] -- Build files have been written to: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces
+[4.771s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.819s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.830s] [  5%] Built target ament_cmake_python_copy_custom_interfaces
+[5.832s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[5.918s] [  7%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/iotbattery__functions.c.o[0m
+[5.930s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/iotdevicerequest__functions.c.o[0m
+[6.055s] running egg_info
+[6.057s] writing custom_interfaces.egg-info/PKG-INFO
+[6.058s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[6.058s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[6.065s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[6.083s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[6.214s] [ 10%] Built target ament_cmake_python_build_custom_interfaces_egg
+[6.262s] [ 12%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[6.289s] [ 12%] Built target custom_interfaces__cpp
+[6.322s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.343s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.360s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.459s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[6.496s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.187s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[7.219s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/iotbattery__type_support.cpp.o[0m
+[7.391s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[7.451s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/iotbattery__type_support.cpp.o[0m
+[7.473s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[7.531s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/iotbattery__type_support.cpp.o[0m
+[7.586s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[7.642s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/iotbattery__type_support_c.cpp.o[0m
+[7.931s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/iotdevicerequest__type_support.cpp.o[0m
+[8.536s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/iotdevicerequest__type_support.cpp.o[0m
+[8.580s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/iotdevicerequest__type_support_c.cpp.o[0m
+[8.645s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/iotdevicerequest__type_support.cpp.o[0m
+[8.730s] [ 46%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[8.841s] [ 46%] Built target custom_interfaces__rosidl_typesupport_cpp
+[8.863s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.453s] [ 51%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.585s] [ 53%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.654s] [ 53%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[9.677s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.707s] [ 58%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.751s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[9.756s] [ 58%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[9.779s] [ 64%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/iotbattery__type_support.c.o[0m
+[9.779s] [ 64%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/iotdevicerequest__type_support.c.o[0m
+[9.866s] [ 66%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.893s] [ 66%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.924s] [ 66%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[10.134s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[10.150s] [ 71%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/iotbattery__type_support.cpp.o[0m
+[10.151s] [ 71%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/iotdevicerequest__type_support.cpp.o[0m
+[10.197s] [ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[10.262s] [ 74%] Built target custom_interfaces__rosidl_typesupport_c
+[10.292s] [ 74%] Built target custom_interfaces
+[10.324s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.043s] [ 76%] Built target custom_interfaces__py
+[11.059s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[11.080s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_iotbattery_s.c.o[0m
+[11.080s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_iotdevicerequest_s.c.o[0m
+[11.257s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[11.320s] [ 84%] Built target custom_interfaces__rosidl_generator_py
+[11.338s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[11.343s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.343s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[11.365s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.373s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.374s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.570s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.572s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.608s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.649s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[11.649s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.669s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.688s] Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node:/opt/ros/humble /usr/bin/cmake --build /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces -- -j4 -l4
+[11.835s] Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node:/opt/ros/humble /usr/bin/cmake --install /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces
+[11.847s] -- Install configuration: ""
+[11.847s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[11.847s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[11.848s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[11.848s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.848s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/iotdevicerequest.h
+[11.849s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/iotbattery.h
+[11.849s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[11.849s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__functions.h
+[11.849s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__type_support.h
+[11.850s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__struct.h
+[11.850s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__type_support.h
+[11.850s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__struct.h
+[11.851s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__functions.c
+[11.851s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__functions.h
+[11.851s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__functions.c
+[11.852s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[11.852s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[11.852s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[11.853s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[11.853s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[11.853s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[11.853s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.854s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[11.854s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__rosidl_typesupport_fastrtps_c.h
+[11.854s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__rosidl_typesupport_fastrtps_c.h
+[11.854s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.855s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.855s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[11.856s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[11.856s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[11.856s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__rosidl_typesupport_introspection_c.h
+[11.856s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__rosidl_typesupport_introspection_c.h
+[11.857s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__type_support.c
+[11.857s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__type_support.c
+[11.857s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.857s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[11.858s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.858s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[11.859s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[11.860s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[11.860s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[11.860s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/iotbattery.hpp
+[11.861s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[11.861s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__traits.hpp
+[11.861s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__struct.hpp
+[11.861s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__traits.hpp
+[11.862s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__builder.hpp
+[11.862s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__builder.hpp
+[11.862s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__struct.hpp
+[11.863s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/iotdevicerequest.hpp
+[11.863s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[11.864s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[11.864s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[11.864s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__rosidl_typesupport_fastrtps_cpp.hpp
+[11.865s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__rosidl_typesupport_fastrtps_cpp.hpp
+[11.865s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[11.865s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.865s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.866s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.866s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[11.866s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[11.866s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[11.866s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__type_support.cpp
+[11.867s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__rosidl_typesupport_introspection_cpp.hpp
+[11.867s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotdevicerequest__type_support.cpp
+[11.867s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/iotbattery__rosidl_typesupport_introspection_cpp.hpp
+[11.867s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.868s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.868s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[11.869s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.869s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[11.870s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[11.870s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[11.870s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[11.871s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[11.871s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.871s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.871s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[11.872s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[11.872s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.872s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[11.873s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.874s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[11.874s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_iotbattery_s.c
+[11.874s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_iotbattery.py
+[11.874s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_iotdevicerequest_s.c
+[11.875s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[11.875s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_iotdevicerequest.py
+[11.875s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.875s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[11.876s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.876s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.941s] Listing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[11.941s] Compiling '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[11.941s] Listing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[11.942s] Compiling '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[11.942s] Compiling '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_iotbattery.py'...
+[11.942s] Compiling '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_iotdevicerequest.py'...
+[11.951s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.951s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.952s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.953s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.953s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.954s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.955s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[11.956s] -- Set runtime path of "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[11.956s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/Iotbattery.idl
+[11.956s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/Iotdevicerequest.idl
+[11.957s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/Iotbattery.msg
+[11.957s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/Iotdevicerequest.msg
+[11.957s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[11.957s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[11.958s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[11.958s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[11.958s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[11.959s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[11.959s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[11.959s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[11.959s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[11.960s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[11.960s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[11.960s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[11.961s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[11.961s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.961s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.961s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.962s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.963s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.963s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[11.963s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.964s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[11.964s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.964s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.964s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.965s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.965s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[11.965s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.965s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[11.965s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.966s] -- Installing: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.966s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.966s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.966s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.967s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.967s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.967s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.967s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[11.968s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[11.968s] -- Up-to-date: /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[11.979s] Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node:/opt/ros/humble /usr/bin/cmake --install /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces

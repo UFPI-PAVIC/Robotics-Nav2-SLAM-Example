@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000218] (control_node) JobQueued: {'identifier': 'control_node', 'dependencies': OrderedDict()}
+[0.000304] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000373] (py_marker) JobQueued: {'identifier': 'py_marker', 'dependencies': OrderedDict()}
+[0.000411] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000441] (unity_slam_example) JobQueued: {'identifier': 'unity_slam_example', 'dependencies': OrderedDict()}
+[0.000473] (control_node) JobStarted: {'identifier': 'control_node'}
+[0.056675] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.087558] (py_marker) JobStarted: {'identifier': 'py_marker'}
+[0.097089] (-) TimerEvent: {}
+[0.127675] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.197244] (-) TimerEvent: {}
+[0.297607] (-) TimerEvent: {}
+[0.398066] (-) TimerEvent: {}
+[0.498469] (-) TimerEvent: {}
+[0.598935] (-) TimerEvent: {}
+[0.635250] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.635637] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces'], 'cwd': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jpedr'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openssl/lib:'), ('HOME', '/home/jpedr'), ('DESKTOP_SESSION', 'pop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('SYSTEMD_EXEC_PID', '2875'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jpedr'), ('_', '/home/jpedr/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jpedr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('DOTNET_ROOT', '/usr/lib/dotnet/dotnet6-6.0.110'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jpedr/.local/bin:/opt/openssl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jpedr/.dotnet/tools'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2091,unix/pop-os:/tmp/.ICE-unix/2091'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7035db9d_4b21_4f2d_802d_b3c0f52ecaf2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/jpedr/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.443'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/jpedr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.699061] (-) TimerEvent: {}
+[0.800003] (-) TimerEvent: {}
+[0.900476] (-) TimerEvent: {}
+[1.000873] (-) TimerEvent: {}
+[1.101279] (-) TimerEvent: {}
+[1.201789] (-) TimerEvent: {}
+[1.205280] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[1.282326] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.301935] (-) TimerEvent: {}
+[1.310964] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.402048] (-) TimerEvent: {}
+[1.452071] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.475039] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.476532] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.480719] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.488200] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.502161] (-) TimerEvent: {}
+[1.602604] (-) TimerEvent: {}
+[1.625552] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.643536] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.644240] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.645285] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.663824] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.702724] (-) TimerEvent: {}
+[1.803173] (-) TimerEvent: {}
+[1.903772] (-) TimerEvent: {}
+[2.004383] (-) TimerEvent: {}
+[2.104964] (-) TimerEvent: {}
+[2.157957] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter \n'}
+[2.205079] (-) TimerEvent: {}
+[2.305532] (-) TimerEvent: {}
+[2.405979] (-) TimerEvent: {}
+[2.450929] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.506095] (-) TimerEvent: {}
+[2.603508] (custom_interfaces) StderrLine: {'line': b"Error parsing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/custom_interfaces/package.xml':\n"}
+[2.606211] (-) TimerEvent: {}
+[2.706769] (-) TimerEvent: {}
+[2.720067] (custom_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.720469] (custom_interfaces) StderrLine: {'line': b'  File "/home/jpedr/.local/lib/python3.10/site-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[2.721621] (custom_interfaces) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[2.721953] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 1998, in parseString\n'}
+[2.724612] (custom_interfaces) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[2.724958] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[2.726039] (custom_interfaces) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[2.726473] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[2.727007] (custom_interfaces) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[2.727469] (custom_interfaces) StderrLine: {'line': b'xml.parsers.expat.ExpatError: junk after document element: line 20, column 0\n'}
+[2.727853] (custom_interfaces) StderrLine: {'line': b'\n'}
+[2.728075] (custom_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[2.728256] (custom_interfaces) StderrLine: {'line': b'\n'}
+[2.728465] (custom_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.728639] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[2.728816] (custom_interfaces) StderrLine: {'line': b'    main()\n'}
+[2.729160] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[2.729627] (custom_interfaces) StderrLine: {'line': b'    raise e\n'}
+[2.730052] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[2.730472] (custom_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[2.730724] (custom_interfaces) StderrLine: {'line': b'  File "/home/jpedr/.local/lib/python3.10/site-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[2.730953] (custom_interfaces) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[2.731239] (custom_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/custom_interfaces/package.xml':\n"}
+[2.731481] (custom_interfaces) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[2.731679] (custom_interfaces) StderrLine: {'line': b'junk after document element: line 20, column 0\n'}
+[2.774016] (custom_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[2.774457] (custom_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[2.774871] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.775121] (custom_interfaces) StderrLine: {'line': b'  /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/custom_interfaces/package.xml\n'}
+[2.775361] (custom_interfaces) StderrLine: {'line': b'  /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces/ament_cmake_core/package.cmake)\n'}
+[2.775558] (custom_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[2.775742] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.776110] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.776409] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[2.776650] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)\n'}
+[2.776858] (custom_interfaces) StderrLine: {'line': b'\n'}
+[2.777045] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.777230] (custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.777395] (custom_interfaces) StdoutLine: {'line': b'See also "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.784242] (custom_interfaces) CommandEnded: {'returncode': 1}
+[2.785940] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 1}
+[2.806981] (-) TimerEvent: {}
+[2.907671] (-) TimerEvent: {}
+[2.934187] (py_marker) JobEnded: {'identifier': 'py_marker', 'rc': 'SIGINT'}
+[2.936806] (control_node) JobEnded: {'identifier': 'control_node', 'rc': 'SIGINT'}
+[2.947457] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 'SIGINT'}
+[2.958626] (unity_slam_example) JobSkipped: {'identifier': 'unity_slam_example'}
+[2.958708] (-) EventReactorShutdown: {}
