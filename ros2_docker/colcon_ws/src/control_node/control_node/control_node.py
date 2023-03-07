@@ -38,7 +38,7 @@ class ControlNode(Node):
         pose.header.frame_id = "map"
         pose.header.stamp = self.get_clock().now().to_msg()
         
-        pos = self.get_frame_position("arduino-nano")
+        pos = self.get_frame_position("iot_1")
         
         pose.pose.position.x = pos.x
         pose.pose.position.y = pos.y

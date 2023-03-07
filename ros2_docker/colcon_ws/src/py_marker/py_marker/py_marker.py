@@ -39,7 +39,7 @@ class MarkerNode(Node):
 
     def check_if_charging(self):
         charging_robot_position = self.get_frame_position("base_footprint")
-        iot_device_position = self.get_frame_position("arduino-nano")
+        iot_device_position = self.get_frame_position("iot_1")
         
     
         try:

@@ -7,11 +7,17 @@ using RosMessageTypes.Visualization;
 using RosMessageTypes.Geometry;
 
 public class ChargingRadius : MonoBehaviour
-{
-    public string IsRechargingTopic = "iot_charging_in_range";
-    public string NotRechargingTopic = "iot_charging_not_in_range";
+{ 
+    public GameObject IoTDevice;
+    public string IsRechargingTopic = "/iot_charging_in_range";
+    public string NotRechargingTopic = "/iot_charging_not_in_range";
     ROSConnection c_Ros;
     Renderer renderer;
+
+    void Awake(){
+        IsRechargingTopic = "device_" + IoTDevice.name[-1] + IsRechargingTopic;
+        NotRechargingTopic = "device_" + IoTDevice.name[-1] + NotRechargingTopic;
+    }
     // Start is called before the first frame update
     void Start()
     {

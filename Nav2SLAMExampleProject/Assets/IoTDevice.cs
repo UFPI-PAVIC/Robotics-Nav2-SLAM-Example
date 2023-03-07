@@ -12,12 +12,19 @@ public class IoTDevice : MonoBehaviour
     public int NextUpdate = 1;
     public short BatteryLevel = 100;
     public short BatteryDecay = -1;
+    public char IoTDeviceId;
     ROSConnection c_Ros;
-    public string BatteryLevelTopic = "iot_battery";
-    public string IsRechargingTopic = "iot_charging_in_range";
-    public string NotRechargingTopic = "iot_charging_not_in_range";
+    public string BatteryLevelTopic = "/iot_battery";
+    public string IsRechargingTopic = "/iot_charging_in_range";
+    public string NotRechargingTopic = "/iot_charging_not_in_range";
 
     // Start is called before the first frame update
+    void Awake(){
+        IoTDeviceId = gameObject.name[-1];
+        BatteryLevelTopic = "device_" + IoTDeviceId + BatteryLevelTopic;
+        IsRechargingTopic = "device_" + IoTDeviceId + IsRechargingTopic;
+        NotRechargingTopic = "device_" + IoTDeviceId + NotRechargingTopic;
+    }
     void Start()
     {
         c_Ros = ROSConnection.GetOrCreateInstance();
