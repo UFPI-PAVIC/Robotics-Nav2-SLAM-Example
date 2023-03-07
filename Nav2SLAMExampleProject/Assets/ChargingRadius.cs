@@ -5,6 +5,7 @@ using Unity.Robotics.ROSTCPConnector;
 using RosMessageTypes.Std;
 using RosMessageTypes.Visualization;
 using RosMessageTypes.Geometry;
+using RosMessageTypes.CustomInterfaces;
 
 public class ChargingRadius : MonoBehaviour
 { 
@@ -15,15 +16,15 @@ public class ChargingRadius : MonoBehaviour
     Renderer renderer;
 
     void Awake(){
-        IsRechargingTopic = "device_" + IoTDevice.name[-1] + IsRechargingTopic;
-        NotRechargingTopic = "device_" + IoTDevice.name[-1] + NotRechargingTopic;
+        IsRechargingTopic = "iot_" + IoTDevice.name[IoTDevice.name.Length-1] + "/" +IsRechargingTopic;
+        NotRechargingTopic = "iot_" + IoTDevice.name[IoTDevice.name.Length-1] + "/" + NotRechargingTopic;
     }
     // Start is called before the first frame update
     void Start()
     {
         c_Ros = ROSConnection.GetOrCreateInstance();
-        c_Ros.Subscribe<BoolMsg>(IsRechargingTopic, RechargingFunction);
-        c_Ros.Subscribe<BoolMsg>(NotRechargingTopic, IsNotRechargingFunction);
+        c_Ros.Subscribe<IotDeviceRequestMsg>(IsRechargingTopic, RechargingFunction);
+        c_Ros.Subscribe<IotDeviceRequestMsg>(NotRechargingTopic, IsNotRechargingFunction);
         renderer = GetComponent<Renderer>();
     }
 
@@ -33,14 +34,14 @@ public class ChargingRadius : MonoBehaviour
         
     }
 
-    void RechargingFunction(BoolMsg msg){
+    void RechargingFunction(IotDeviceRequestMsg msg){
         Color color = Color.green;
         color.a = 0.3f;
 
 
         renderer.material.color = color;
     }
-    void IsNotRechargingFunction(BoolMsg msg){
+    void IsNotRechargingFunction(IotDeviceRequestMsg msg){
         Color color = Color.yellow;
         color.a = 0.3f;
 

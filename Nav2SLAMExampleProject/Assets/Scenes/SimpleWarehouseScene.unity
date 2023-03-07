@@ -9011,6 +9011,10 @@ PrefabInstance:
       propertyPath: IoTDevice
       value: 
       objectReference: {fileID: 564035086}
+    - target: {fileID: 1681816423060109682, guid: 7da2b38aca45dad058db6243c77e8b6f, type: 3}
+      propertyPath: BatteryLevel
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 7542771904320625174, guid: 7da2b38aca45dad058db6243c77e8b6f, type: 3}
       propertyPath: m_Name
       value: iot_2
@@ -30532,6 +30536,10 @@ PrefabInstance:
       propertyPath: IoTDevice
       value: 
       objectReference: {fileID: 1792387795}
+    - target: {fileID: 1681816423060109682, guid: 7da2b38aca45dad058db6243c77e8b6f, type: 3}
+      propertyPath: BatteryLevel
+      value: 85
+      objectReference: {fileID: 0}
     - target: {fileID: 7542771904320625174, guid: 7da2b38aca45dad058db6243c77e8b6f, type: 3}
       propertyPath: m_Name
       value: iot_3
@@ -31516,6 +31524,10 @@ PrefabInstance:
       propertyPath: IoTDevice
       value: 
       objectReference: {fileID: 1821778727}
+    - target: {fileID: 1681816423060109682, guid: 7da2b38aca45dad058db6243c77e8b6f, type: 3}
+      propertyPath: BatteryLevel
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7542771904320625174, guid: 7da2b38aca45dad058db6243c77e8b6f, type: 3}
       propertyPath: m_Name
       value: iot_4
@@ -36762,6 +36774,10 @@ PrefabInstance:
       propertyPath: IoTDevice
       value: 
       objectReference: {fileID: 919132148096060435}
+    - target: {fileID: 1681816423060109682, guid: 7da2b38aca45dad058db6243c77e8b6f, type: 3}
+      propertyPath: BatteryLevel
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 7542771904320625174, guid: 7da2b38aca45dad058db6243c77e8b6f, type: 3}
       propertyPath: m_Name
       value: iot_1

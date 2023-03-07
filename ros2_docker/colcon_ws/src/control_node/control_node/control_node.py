@@ -11,16 +11,16 @@ import std_msgs.msg
 from visualization_msgs.msg import Marker
 
 from geometry_msgs.msg import TransformStamped, Point, PoseStamped
+from custom_interfaces.msg import IotBattery, IotDeviceRequest
 import tf2_ros
 
 class ControlNode(Node):
-    wireless_charging_range = 30
-    
     
     def __init__(self):
+        self.charging_request_stack = []
         super().__init__('control_node')
         self.pose_pub = self.create_publisher(PoseStamped, 'goal_pose', 10)
-        self.battery_sub = self.create_subscription(std_msgs.msg.Bool, 'iot_charging_request', self.charging_request_callback, 10)
+        self.battery_sub = self.create_subscription(IotDeviceRequest, 'iot_charging_request', self.charging_request_callback, 10)
         
         self.tf_buffer = tf2_ros.Buffer()
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
@@ -34,11 +34,16 @@ class ControlNode(Node):
             self.get_logger().error(f'Failed to get transform for {frame_id}: {str(e)}')
 
     def charging_request_callback(self, msg):
+        
+        # TODO: Fazer com que o robô ignore mensagens de requisição de energia quando ainda estiver atendendo uma mais antiga
+        # Também descobrir como fazer com que seja possível saber que ele atingiu o objetivo atual.
+        
         pose = PoseStamped()
         pose.header.frame_id = "map"
         pose.header.stamp = self.get_clock().now().to_msg()
         
-        pos = self.get_frame_position("iot_1")
+        pos = self.get_frame_position("iot_" + str(msg.iot_id))
+            
         
         pose.pose.position.x = pos.x
         pose.pose.position.y = pos.y

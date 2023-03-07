@@ -29,7 +29,53 @@ def generate_launch_description():
         Node(
             package='py_marker',
             executable='marker',
+            parameters=[
+                {
+                    "iot_device_id": "1"
+                }
+            ]
         ),
+        
+        Node(
+            package='py_marker',
+            executable='marker',
+            parameters=[
+                {
+                    "iot_device_id": "2"
+                }
+            ]
+        ),
+        
+        Node(
+            package='py_marker',
+            executable='marker',
+            parameters=[
+                {
+                    "iot_device_id": "3"
+                }
+            ]
+        ),
+        
+        Node(
+            package='py_marker',
+            executable='marker',
+            parameters=[
+                {
+                    "iot_device_id": "4"
+                }
+            ]
+        ),
+        
+        Node(
+            package='py_marker',
+            executable='marker',
+            parameters=[
+                {
+                    "iot_device_id": "5"
+                }
+            ]
+        ),
+        
         
         Node(
             package='control_node',

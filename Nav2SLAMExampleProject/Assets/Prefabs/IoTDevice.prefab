@@ -193,6 +193,7 @@ MonoBehaviour:
   NextUpdate: 1
   BatteryLevel: 100
   BatteryDecay: -1
+  IoTDeviceId: 0
   BatteryLevelTopic: iot_battery
   IsRechargingTopic: iot_charging_in_range
   NotRechargingTopic: iot_charging_not_in_range
