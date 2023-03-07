@@ -1,0 +1,4 @@
+msg/IotBattery.idl
+msg/IotBattery.msg
+msg/IotDeviceRequest.idl
+msg/IotDeviceRequest.msg

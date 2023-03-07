@@ -1,0 +1,57 @@
+[0.576s] Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces': /usr/bin/cmake /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces
+[1.144s] -- The C compiler identification is GNU 11.2.0
+[1.221s] -- The CXX compiler identification is GNU 11.2.0
+[1.249s] -- Detecting C compiler ABI info
+[1.390s] -- Detecting C compiler ABI info - done
+[1.413s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.415s] -- Detecting C compile features
+[1.419s] -- Detecting C compile features - done
+[1.427s] -- Detecting CXX compiler ABI info
+[1.564s] -- Detecting CXX compiler ABI info - done
+[1.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.583s] -- Detecting CXX compile features
+[1.584s] -- Detecting CXX compile features - done
+[1.602s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.096s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[2.389s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.542s] Error parsing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/custom_interfaces/package.xml':
+[2.658s] Traceback (most recent call last):
+[2.659s]   File "/home/jpedr/.local/lib/python3.10/site-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[2.660s]     root = dom.parseString(data)
+[2.660s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 1998, in parseString
+[2.663s]     return expatbuilder.parseString(string)
+[2.663s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[2.664s]     return builder.parseString(string)
+[2.665s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[2.665s]     parser.Parse(string, True)
+[2.666s] xml.parsers.expat.ExpatError: junk after document element: line 20, column 0
+[2.666s] 
+[2.666s] During handling of the above exception, another exception occurred:
+[2.667s] 
+[2.667s] Traceback (most recent call last):
+[2.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.667s]     main()
+[2.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.668s]     raise e
+[2.669s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.669s]     package = parse_package_string(
+[2.669s]   File "/home/jpedr/.local/lib/python3.10/site-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[2.669s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[2.670s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/custom_interfaces/package.xml':
+[2.670s] The manifest contains invalid XML:
+[2.670s] junk after document element: line 20, column 0
+[2.713s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.713s]   execute_process(/usr/bin/python3.10
+[2.713s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.713s]   /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/custom_interfaces/package.xml
+[2.714s]   /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces/ament_cmake_core/package.cmake)
+[2.714s]   returned error code 1
+[2.714s] Call Stack (most recent call first):
+[2.714s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.715s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.715s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[2.715s] 
+[2.715s] [0m
+[2.715s] -- Configuring incomplete, errors occurred!
+[2.716s] See also "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[2.723s] Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/custom_interfaces' returned '1': /usr/bin/cmake /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/custom_interfaces
