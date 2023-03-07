@@ -1,0 +1,28 @@
+[2.325s] Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[2.981s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.982s]   warnings.warn(
+[2.982s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.982s]   warnings.warn(
+[3.003s] running egg_info
+[3.007s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[3.008s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[3.008s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[3.009s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[3.009s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[3.013s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[3.013s] adding license file 'LICENSE'
+[3.016s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[3.016s] running build
+[3.016s] running build_py
+[3.018s] running install
+[3.019s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.019s]   warnings.warn(
+[3.019s] running install_lib
+[3.023s] running install_data
+[3.025s] running install_egg_info
+[3.029s] removing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)
+[3.029s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[3.031s] running install_scripts
+[3.080s] Installing default_server_endpoint script to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[3.081s] writing list of installed files to '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/install.log'
+[3.137s] Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed

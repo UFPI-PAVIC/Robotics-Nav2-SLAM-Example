@@ -1,0 +1,23 @@
+[2.978s] Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/unity_slam_example': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/install.log --single-version-externally-managed
+[3.823s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.824s]   warnings.warn(
+[3.824s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.824s]   warnings.warn(
+[3.847s] running egg_info
+[3.849s] writing ../../build/unity_slam_example/unity_slam_example.egg-info/PKG-INFO
+[3.855s] writing dependency_links to ../../build/unity_slam_example/unity_slam_example.egg-info/dependency_links.txt
+[3.864s] writing requirements to ../../build/unity_slam_example/unity_slam_example.egg-info/requires.txt
+[3.864s] writing top-level names to ../../build/unity_slam_example/unity_slam_example.egg-info/top_level.txt
+[3.865s] reading manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[3.865s] writing manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[3.866s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.866s]   warnings.warn(
+[3.867s] running build
+[3.867s] running install
+[3.867s] running install_data
+[3.868s] running install_egg_info
+[3.868s] removing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages/unity_slam_example-0.0.1-py3.10.egg-info' (and everything under it)
+[3.869s] Copying ../../build/unity_slam_example/unity_slam_example.egg-info to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages/unity_slam_example-0.0.1-py3.10.egg-info
+[3.869s] running install_scripts
+[3.912s] writing list of installed files to '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/install.log'
+[3.965s] Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/unity_slam_example' returned '0': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/install.log --single-version-externally-managed

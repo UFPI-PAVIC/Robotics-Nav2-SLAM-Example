@@ -1,0 +1,23 @@
+[5.887s] Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/control_node': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/install.log --single-version-externally-managed
+[6.738s] running egg_info
+[6.743s] writing ../../build/control_node/control_node.egg-info/PKG-INFO
+[6.747s] writing dependency_links to ../../build/control_node/control_node.egg-info/dependency_links.txt
+[6.748s] writing entry points to ../../build/control_node/control_node.egg-info/entry_points.txt
+[6.749s] writing requirements to ../../build/control_node/control_node.egg-info/requires.txt
+[6.750s] writing top-level names to ../../build/control_node/control_node.egg-info/top_level.txt
+[6.755s] reading manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'
+[6.758s] writing manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'
+[6.759s] running build
+[6.759s] running build_py
+[6.760s] running install
+[6.761s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.761s]   warnings.warn(
+[6.762s] running install_lib
+[6.766s] running install_data
+[6.768s] running install_egg_info
+[6.772s] removing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info' (and everything under it)
+[6.780s] Copying ../../build/control_node/control_node.egg-info to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info
+[6.782s] running install_scripts
+[6.841s] Installing control script to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/control_node
+[6.843s] writing list of installed files to '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/install.log'
+[6.930s] Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/control_node' returned '0': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/install.log --single-version-externally-managed

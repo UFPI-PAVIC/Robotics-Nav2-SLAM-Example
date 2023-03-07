@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker/py_marker.py", line 53
+    if distance_from_charging_range =< 5.0:
+                                    ^
+SyntaxError: invalid syntax
+

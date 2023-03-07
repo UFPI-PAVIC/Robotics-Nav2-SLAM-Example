@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000719] (control_node) JobQueued: {'identifier': 'control_node', 'dependencies': OrderedDict()}
+[0.000852] (py_marker) JobQueued: {'identifier': 'py_marker', 'dependencies': OrderedDict()}
+[0.000942] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.001032] (unity_slam_example) JobQueued: {'identifier': 'unity_slam_example', 'dependencies': OrderedDict()}
+[0.002192] (control_node) JobStarted: {'identifier': 'control_node'}
+[0.099381] (-) TimerEvent: {}
+[0.107710] (py_marker) JobStarted: {'identifier': 'py_marker'}
+[0.199515] (-) TimerEvent: {}
+[0.200912] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.290819] (unity_slam_example) JobStarted: {'identifier': 'unity_slam_example'}
+[0.304958] (-) TimerEvent: {}
+[0.413022] (-) TimerEvent: {}
+[0.513513] (-) TimerEvent: {}
+[0.613969] (-) TimerEvent: {}
+[0.714478] (-) TimerEvent: {}
+[0.814991] (-) TimerEvent: {}
+[0.915441] (-) TimerEvent: {}
+[1.016076] (-) TimerEvent: {}
+[1.116665] (-) TimerEvent: {}
+[1.217456] (-) TimerEvent: {}
+[1.318343] (-) TimerEvent: {}
+[1.424057] (-) TimerEvent: {}
+[1.530665] (-) TimerEvent: {}
+[1.631187] (-) TimerEvent: {}
+[1.732165] (-) TimerEvent: {}
+[1.833167] (-) TimerEvent: {}
+[1.933653] (-) TimerEvent: {}
+[2.034386] (-) TimerEvent: {}
+[2.134902] (-) TimerEvent: {}
+[2.235402] (-) TimerEvent: {}
+[2.335848] (-) TimerEvent: {}
+[2.436257] (-) TimerEvent: {}
+[2.536733] (-) TimerEvent: {}
+[2.638351] (-) TimerEvent: {}
+[2.738930] (-) TimerEvent: {}
+[2.839537] (-) TimerEvent: {}
+[2.941026] (-) TimerEvent: {}
+[3.041791] (-) TimerEvent: {}
+[3.142743] (-) TimerEvent: {}
+[3.243556] (-) TimerEvent: {}
+[3.344360] (-) TimerEvent: {}
+[3.444988] (-) TimerEvent: {}
+[3.546058] (-) TimerEvent: {}
+[3.646835] (-) TimerEvent: {}
+[3.752634] (-) TimerEvent: {}
+[3.854346] (-) TimerEvent: {}
+[3.955084] (-) TimerEvent: {}
+[4.055810] (-) TimerEvent: {}
+[4.157526] (-) TimerEvent: {}
+[4.259154] (-) TimerEvent: {}
+[4.360136] (-) TimerEvent: {}
+[4.461153] (-) TimerEvent: {}
+[4.562422] (-) TimerEvent: {}
+[4.663812] (-) TimerEvent: {}
+[4.764677] (-) TimerEvent: {}
+[4.865340] (-) TimerEvent: {}
+[4.973045] (-) TimerEvent: {}
+[5.079631] (-) TimerEvent: {}
+[5.180138] (-) TimerEvent: {}
+[5.280579] (-) TimerEvent: {}
+[5.381120] (-) TimerEvent: {}
+[5.481609] (-) TimerEvent: {}
+[5.582116] (-) TimerEvent: {}
+[5.683036] (-) TimerEvent: {}
+[5.783497] (-) TimerEvent: {}
+[5.884159] (-) TimerEvent: {}
+[5.985540] (-) TimerEvent: {}
+[6.086568] (-) TimerEvent: {}
+[6.188006] (-) TimerEvent: {}
+[6.288839] (-) TimerEvent: {}
+[6.389677] (-) TimerEvent: {}
+[6.490604] (-) TimerEvent: {}
+[6.593690] (-) TimerEvent: {}
+[6.694890] (-) TimerEvent: {}
+[6.797094] (-) TimerEvent: {}
+[6.899021] (-) TimerEvent: {}
+[7.000597] (-) TimerEvent: {}
+[7.102360] (-) TimerEvent: {}
+[7.203169] (-) TimerEvent: {}
+[7.305275] (-) TimerEvent: {}
+[7.339205] (py_marker) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_marker', 'build', '--build-base', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/build', 'install', '--prefix', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker', '--record', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/install.log', '--single-version-externally-managed'], 'cwd': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/py_marker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jpedr', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openssl/lib:', 'HOME': '/home/jpedr', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'SYSTEMD_EXEC_PID': '6605', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jpedr', '_': '/home/jpedr/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jpedr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/usr/lib/dotnet/dotnet6-6.0.110', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/jpedr/.local/bin:/opt/openssl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jpedr/.dotnet/tools', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/2695,unix/pop-os:/tmp/.ICE-unix/2695', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9d06363d_204c_49fd_af42_5cfac3ec3484', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/jpedr/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.305', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/jpedr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.405652] (-) TimerEvent: {}
+[7.489129] (control_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/control_node', 'build', '--build-base', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/build', 'install', '--prefix', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node', '--record', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/control_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jpedr', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openssl/lib:', 'HOME': '/home/jpedr', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'SYSTEMD_EXEC_PID': '6605', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jpedr', '_': '/home/jpedr/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jpedr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/usr/lib/dotnet/dotnet6-6.0.110', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/jpedr/.local/bin:/opt/openssl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jpedr/.dotnet/tools', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/2695,unix/pop-os:/tmp/.ICE-unix/2695', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9d06363d_204c_49fd_af42_5cfac3ec3484', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/jpedr/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.305', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/jpedr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.516533] (-) TimerEvent: {}
+[7.539845] (unity_slam_example) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/unity_slam_example', 'build', '--build-base', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/build', 'install', '--prefix', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example', '--record', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/install.log', '--single-version-externally-managed'], 'cwd': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/unity_slam_example', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jpedr', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openssl/lib:', 'HOME': '/home/jpedr', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'SYSTEMD_EXEC_PID': '6605', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jpedr', '_': '/home/jpedr/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jpedr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/usr/lib/dotnet/dotnet6-6.0.110', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/jpedr/.local/bin:/opt/openssl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jpedr/.dotnet/tools', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/2695,unix/pop-os:/tmp/.ICE-unix/2695', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9d06363d_204c_49fd_af42_5cfac3ec3484', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/jpedr/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.305', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/jpedr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.617568] (-) TimerEvent: {}
+[7.718542] (-) TimerEvent: {}
+[7.819212] (-) TimerEvent: {}
+[7.919855] (-) TimerEvent: {}
+[8.020524] (-) TimerEvent: {}
+[8.123062] (-) TimerEvent: {}
+[8.224511] (-) TimerEvent: {}
+[8.293312] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/build', 'install', '--prefix', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint', '--record', '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/install.log', '--single-version-externally-managed'], 'cwd': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/ROS-TCP-Endpoint', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jpedr', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openssl/lib:', 'HOME': '/home/jpedr', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'SYSTEMD_EXEC_PID': '6605', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jpedr', '_': '/home/jpedr/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jpedr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/usr/lib/dotnet/dotnet6-6.0.110', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/jpedr/.local/bin:/opt/openssl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jpedr/.dotnet/tools', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/2695,unix/pop-os:/tmp/.ICE-unix/2695', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9d06363d_204c_49fd_af42_5cfac3ec3484', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/jpedr/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.305', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/jpedr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.324627] (-) TimerEvent: {}
+[8.353468] (py_marker) StdoutLine: {'line': b'running egg_info\n'}
+[8.356525] (py_marker) StdoutLine: {'line': b'writing ../../build/py_marker/py_marker.egg-info/PKG-INFO\n'}
+[8.364369] (py_marker) StdoutLine: {'line': b'writing dependency_links to ../../build/py_marker/py_marker.egg-info/dependency_links.txt\n'}
+[8.365405] (py_marker) StdoutLine: {'line': b'writing entry points to ../../build/py_marker/py_marker.egg-info/entry_points.txt\n'}
+[8.366091] (py_marker) StdoutLine: {'line': b'writing requirements to ../../build/py_marker/py_marker.egg-info/requires.txt\n'}
+[8.366706] (py_marker) StdoutLine: {'line': b'writing top-level names to ../../build/py_marker/py_marker.egg-info/top_level.txt\n'}
+[8.370506] (py_marker) StdoutLine: {'line': b"reading manifest file '../../build/py_marker/py_marker.egg-info/SOURCES.txt'\n"}
+[8.373821] (py_marker) StdoutLine: {'line': b"writing manifest file '../../build/py_marker/py_marker.egg-info/SOURCES.txt'\n"}
+[8.374941] (py_marker) StdoutLine: {'line': b'running build\n'}
+[8.375250] (py_marker) StdoutLine: {'line': b'running build_py\n'}
+[8.375473] (py_marker) StdoutLine: {'line': b'copying py_marker/py_marker.py -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/build/lib/py_marker\n'}
+[8.381267] (py_marker) StdoutLine: {'line': b'running install\n'}
+[8.383202] (py_marker) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.383607] (py_marker) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.383839] (py_marker) StdoutLine: {'line': b'running install_lib\n'}
+[8.386274] (py_marker) StdoutLine: {'line': b'copying /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/build/lib/py_marker/py_marker.py -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker\n'}
+[8.389812] (py_marker) StdoutLine: {'line': b'byte-compiling /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker/py_marker.py to py_marker.cpython-310.pyc\n'}
+[8.396049] (py_marker) StdoutLine: {'line': b'running install_data\n'}
+[8.397010] (py_marker) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.402412] (py_marker) StdoutLine: {'line': b"removing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.418654] (py_marker) StdoutLine: {'line': b'Copying ../../build/py_marker/py_marker.egg-info to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker-0.0.0-py3.10.egg-info\n'}
+[8.424732] (-) TimerEvent: {}
+[8.427145] (py_marker) StdoutLine: {'line': b'running install_scripts\n'}
+[8.524847] (-) TimerEvent: {}
+[8.563138] (py_marker) StdoutLine: {'line': b'Installing marker script to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/py_marker\n'}
+[8.565804] (py_marker) StdoutLine: {'line': b"writing list of installed files to '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/install.log'\n"}
+[8.625458] (-) TimerEvent: {}
+[8.675004] (py_marker) CommandEnded: {'returncode': 0}
+[8.727873] (-) TimerEvent: {}
+[8.777258] (control_node) StdoutLine: {'line': b'running egg_info\n'}
+[8.784745] (control_node) StdoutLine: {'line': b'writing ../../build/control_node/control_node.egg-info/PKG-INFO\n'}
+[8.811927] (control_node) StdoutLine: {'line': b'writing dependency_links to ../../build/control_node/control_node.egg-info/dependency_links.txt\n'}
+[8.812377] (control_node) StdoutLine: {'line': b'writing entry points to ../../build/control_node/control_node.egg-info/entry_points.txt\n'}
+[8.812677] (control_node) StdoutLine: {'line': b'writing requirements to ../../build/control_node/control_node.egg-info/requires.txt\n'}
+[8.812922] (control_node) StdoutLine: {'line': b'writing top-level names to ../../build/control_node/control_node.egg-info/top_level.txt\n'}
+[8.813158] (control_node) StdoutLine: {'line': b"reading manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'\n"}
+[8.817776] (control_node) StdoutLine: {'line': b"writing manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'\n"}
+[8.820361] (control_node) StdoutLine: {'line': b'running build\n'}
+[8.820720] (control_node) StdoutLine: {'line': b'running build_py\n'}
+[8.820925] (control_node) StdoutLine: {'line': b'copying control_node/control_node.py -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/build/lib/control_node\n'}
+[8.821126] (control_node) StdoutLine: {'line': b'running install\n'}
+[8.821404] (control_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.821665] (control_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.824253] (control_node) StdoutLine: {'line': b'running install_lib\n'}
+[8.829379] (control_node) StdoutLine: {'line': b'copying /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/build/lib/control_node/control_node.py -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages/control_node\n'}
+[8.829759] (-) TimerEvent: {}
+[8.834571] (control_node) StdoutLine: {'line': b'byte-compiling /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages/control_node/control_node.py to control_node.cpython-310.pyc\n'}
+[8.836869] (control_node) StdoutLine: {'line': b'running install_data\n'}
+[8.837784] (py_marker) JobEnded: {'identifier': 'py_marker', 'rc': 0}
+[8.839611] (control_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.854837] (control_node) StdoutLine: {'line': b"removing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.855376] (control_node) StdoutLine: {'line': b'Copying ../../build/control_node/control_node.egg-info to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info\n'}
+[8.858134] (control_node) StdoutLine: {'line': b'running install_scripts\n'}
+[8.929892] (-) TimerEvent: {}
+[8.958116] (control_node) StdoutLine: {'line': b'Installing control script to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/control_node\n'}
+[8.961661] (control_node) StdoutLine: {'line': b"writing list of installed files to '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/install.log'\n"}
+[9.030165] (-) TimerEvent: {}
+[9.091360] (control_node) CommandEnded: {'returncode': 0}
+[9.124424] (unity_slam_example) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[9.124957] (unity_slam_example) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.125218] (unity_slam_example) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[9.125484] (unity_slam_example) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.130561] (-) TimerEvent: {}
+[9.165982] (unity_slam_example) StdoutLine: {'line': b'running egg_info\n'}
+[9.168591] (unity_slam_example) StdoutLine: {'line': b'writing ../../build/unity_slam_example/unity_slam_example.egg-info/PKG-INFO\n'}
+[9.170435] (unity_slam_example) StdoutLine: {'line': b'writing dependency_links to ../../build/unity_slam_example/unity_slam_example.egg-info/dependency_links.txt\n'}
+[9.173522] (unity_slam_example) StdoutLine: {'line': b'writing requirements to ../../build/unity_slam_example/unity_slam_example.egg-info/requires.txt\n'}
+[9.174795] (unity_slam_example) StdoutLine: {'line': b'writing top-level names to ../../build/unity_slam_example/unity_slam_example.egg-info/top_level.txt\n'}
+[9.178114] (unity_slam_example) StdoutLine: {'line': b"reading manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'\n"}
+[9.188261] (unity_slam_example) StdoutLine: {'line': b"writing manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'\n"}
+[9.189180] (unity_slam_example) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.190494] (unity_slam_example) StdoutLine: {'line': b'running build\n'}
+[9.190740] (unity_slam_example) StdoutLine: {'line': b'running install\n'}
+[9.190969] (unity_slam_example) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.191190] (unity_slam_example) StdoutLine: {'line': b'running install_data\n'}
+[9.199813] (unity_slam_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.201005] (unity_slam_example) StdoutLine: {'line': b"removing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages/unity_slam_example-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[9.213007] (unity_slam_example) StdoutLine: {'line': b'Copying ../../build/unity_slam_example/unity_slam_example.egg-info to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages/unity_slam_example-0.0.1-py3.10.egg-info\n'}
+[9.213378] (unity_slam_example) StdoutLine: {'line': b'running install_scripts\n'}
+[9.230780] (-) TimerEvent: {}
+[9.236159] (control_node) JobEnded: {'identifier': 'control_node', 'rc': 0}
+[9.296616] (unity_slam_example) StdoutLine: {'line': b"writing list of installed files to '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/install.log'\n"}
+[9.330890] (-) TimerEvent: {}
+[9.385891] (unity_slam_example) CommandEnded: {'returncode': 0}
+[9.436178] (-) TimerEvent: {}
+[9.475992] (unity_slam_example) JobEnded: {'identifier': 'unity_slam_example', 'rc': 0}
+[9.525428] (ros_tcp_endpoint) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[9.525845] (ros_tcp_endpoint) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.526248] (ros_tcp_endpoint) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[9.526548] (ros_tcp_endpoint) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.537576] (-) TimerEvent: {}
+[9.557229] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[9.563566] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[9.566442] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[9.567952] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[9.569024] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[9.569576] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[9.571952] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[9.574570] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.577614] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[9.579037] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[9.581215] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[9.582065] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[9.582803] (ros_tcp_endpoint) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.583277] (ros_tcp_endpoint) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.584192] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[9.593305] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[9.595472] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.600263] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[9.606851] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info\n'}
+[9.609137] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[9.637741] (-) TimerEvent: {}
+[9.680884] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[9.682557] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/install.log'\n"}
+[9.738043] (-) TimerEvent: {}
+[9.773502] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[9.843300] (-) TimerEvent: {}
+[9.859350] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[9.861381] (-) EventReactorShutdown: {}

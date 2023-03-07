@@ -1,0 +1,26 @@
+[2.198s] Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/py_marker': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_marker build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/install.log --single-version-externally-managed
+[2.780s] running egg_info
+[2.781s] writing ../../build/py_marker/py_marker.egg-info/PKG-INFO
+[2.784s] writing dependency_links to ../../build/py_marker/py_marker.egg-info/dependency_links.txt
+[2.784s] writing entry points to ../../build/py_marker/py_marker.egg-info/entry_points.txt
+[2.785s] writing requirements to ../../build/py_marker/py_marker.egg-info/requires.txt
+[2.785s] writing top-level names to ../../build/py_marker/py_marker.egg-info/top_level.txt
+[2.788s] reading manifest file '../../build/py_marker/py_marker.egg-info/SOURCES.txt'
+[2.790s] writing manifest file '../../build/py_marker/py_marker.egg-info/SOURCES.txt'
+[2.790s] running build
+[2.790s] running build_py
+[2.791s] copying py_marker/py_marker.py -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/build/lib/py_marker
+[2.791s] running install
+[2.791s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.791s]   warnings.warn(
+[2.792s] running install_lib
+[2.793s] copying /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/build/lib/py_marker/py_marker.py -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker
+[2.794s] byte-compiling /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker/py_marker.py to py_marker.cpython-310.pyc
+[2.796s] running install_data
+[2.797s] running install_egg_info
+[2.800s] removing '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker-0.0.0-py3.10.egg-info' (and everything under it)
+[2.800s] Copying ../../build/py_marker/py_marker.egg-info to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker-0.0.0-py3.10.egg-info
+[2.802s] running install_scripts
+[2.833s] Installing marker script to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/py_marker
+[2.834s] writing list of installed files to '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/install.log'
+[2.879s] Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/py_marker' returned '0': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_marker build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/install.log --single-version-externally-managed

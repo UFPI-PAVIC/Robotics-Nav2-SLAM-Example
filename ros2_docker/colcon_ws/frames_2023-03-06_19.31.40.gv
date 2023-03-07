@@ -1,0 +1,14 @@
+digraph G {
+"map" -> "odom"[label=" Broadcaster: default_authority\nAverage rate: 51.165\nBuffer length: 4.964\nMost recent transform: 16.262819\nOldest transform: 11.298519\n"];
+"odom" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 8.926\nBuffer length: 4.929\nMost recent transform: 16.125383\nOldest transform: 11.196153\n"];
+"base_footprint" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 8.926\nBuffer length: 4.929\nMost recent transform: 16.125383\nOldest transform: 11.196153\n"];
+"base_link" -> "base_scan"[label=" Broadcaster: default_authority\nAverage rate: 8.926\nBuffer length: 4.929\nMost recent transform: 16.125383\nOldest transform: 11.196153\n"];
+"base_link" -> "imu_link"[label=" Broadcaster: default_authority\nAverage rate: 8.926\nBuffer length: 4.929\nMost recent transform: 16.125383\nOldest transform: 11.196153\n"];
+"base_link" -> "wheel_right_link"[label=" Broadcaster: default_authority\nAverage rate: 8.926\nBuffer length: 4.929\nMost recent transform: 16.125383\nOldest transform: 11.196153\n"];
+"base_link" -> "wheel_left_link"[label=" Broadcaster: default_authority\nAverage rate: 8.926\nBuffer length: 4.929\nMost recent transform: 16.125383\nOldest transform: 11.196153\n"];
+"map" -> "arduino-nano"[label=" Broadcaster: default_authority\nAverage rate: 8.926\nBuffer length: 4.929\nMost recent transform: 16.125383\nOldest transform: 11.196153\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1678141900.2038896"[ shape=plaintext ] ;
+}->"map";
+}

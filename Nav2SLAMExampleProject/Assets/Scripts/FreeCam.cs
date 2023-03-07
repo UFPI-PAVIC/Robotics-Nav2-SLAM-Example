@@ -53,7 +53,7 @@ public class FreeCam : MonoBehaviour
     {
         var fastMode = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         var movementSpeed = fastMode ? m_FastMovementSpeed : m_MovementSpeed;
-
+        /*
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             transform.position = transform.position + -transform.right * movementSpeed * Time.deltaTime;
 
@@ -77,7 +77,7 @@ public class FreeCam : MonoBehaviour
 
         if (Input.GetKey(KeyCode.F) || Input.GetKey(KeyCode.PageDown))
             transform.position = transform.position + -Vector3.up * movementSpeed * Time.deltaTime;
-
+        */
         if (m_Looking)
         {
             var newRotationX = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * m_FreeLookSensitivity;

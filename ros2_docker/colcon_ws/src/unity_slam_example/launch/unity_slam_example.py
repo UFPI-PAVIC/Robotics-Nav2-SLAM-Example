@@ -33,14 +33,5 @@ def generate_launch_description():
             launch_arguments={
                 'use_sim_time': 'true'
             }.items()
-        ),
-
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(get_package_share_directory('slam_toolbox'), 'launch', 'online_async_launch.py')
-            ),
-            launch_arguments={
-                'use_sim_time': 'true'
-            }.items()
         )
     })

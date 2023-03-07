@@ -1,0 +1,13 @@
+digraph G {
+"odom" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 9.418\nBuffer length: 4.991\nMost recent transform: 38.859613\nOldest transform: 33.868907\n"];
+"base_footprint" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 9.418\nBuffer length: 4.991\nMost recent transform: 38.859613\nOldest transform: 33.868907\n"];
+"base_link" -> "base_scan"[label=" Broadcaster: default_authority\nAverage rate: 9.418\nBuffer length: 4.991\nMost recent transform: 38.859613\nOldest transform: 33.868907\n"];
+"base_link" -> "imu_link"[label=" Broadcaster: default_authority\nAverage rate: 9.418\nBuffer length: 4.991\nMost recent transform: 38.859613\nOldest transform: 33.868907\n"];
+"base_link" -> "wheel_right_link"[label=" Broadcaster: default_authority\nAverage rate: 9.418\nBuffer length: 4.991\nMost recent transform: 38.859613\nOldest transform: 33.868907\n"];
+"base_link" -> "wheel_left_link"[label=" Broadcaster: default_authority\nAverage rate: 9.418\nBuffer length: 4.991\nMost recent transform: 38.859613\nOldest transform: 33.868907\n"];
+"map" -> "arduino-nano"[label=" Broadcaster: default_authority\nAverage rate: 9.478\nBuffer length: 5.064\nMost recent transform: 38.93318\nOldest transform: 33.868907\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1678191943.6903427"[ shape=plaintext ] ;
+}->"map";
+}

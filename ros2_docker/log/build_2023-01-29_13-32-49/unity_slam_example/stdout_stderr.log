@@ -1,0 +1,30 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+running egg_info
+creating ../../../build/unity_slam_example/unity_slam_example.egg-info
+writing ../../../build/unity_slam_example/unity_slam_example.egg-info/PKG-INFO
+writing dependency_links to ../../../build/unity_slam_example/unity_slam_example.egg-info/dependency_links.txt
+writing requirements to ../../../build/unity_slam_example/unity_slam_example.egg-info/requires.txt
+writing top-level names to ../../../build/unity_slam_example/unity_slam_example.egg-info/top_level.txt
+writing manifest file '../../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+reading manifest file '../../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+writing manifest file '../../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+running build
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_data
+creating /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/install/unity_slam_example/share/ament_index
+creating /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/install/unity_slam_example/share/ament_index/resource_index
+creating /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/install/unity_slam_example/share/ament_index/resource_index/packages
+copying resource/unity_slam_example -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/install/unity_slam_example/share/ament_index/resource_index/packages
+copying package.xml -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/install/unity_slam_example/share/unity_slam_example
+copying rviz/nav2_unity.rviz -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/install/unity_slam_example/share/unity_slam_example
+copying launch/unity_slam_example.py -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/install/unity_slam_example/share/unity_slam_example
+copying launch/unity_viz_example.py -> /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/install/unity_slam_example/share/unity_slam_example
+running install_egg_info
+Copying ../../../build/unity_slam_example/unity_slam_example.egg-info to /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/install/unity_slam_example/lib/python3.10/site-packages/unity_slam_example-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/build/unity_slam_example/install.log'

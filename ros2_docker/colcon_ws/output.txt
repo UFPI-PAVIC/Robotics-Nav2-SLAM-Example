@@ -1,0 +1,296 @@
+[INFO] [launch]: All log files can be found below /home/jpedr/.ros/log/2023-01-30-21-19-56-777363-pop-os-11037
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [default_server_endpoint-3]: process started with pid [11043]
+[INFO] [marker-1]: process started with pid [11039]
+[INFO] [async_slam_toolbox_node-2]: process started with pid [11041]
+[INFO] [rviz2-4]: process started with pid [11045]
+[INFO] [controller_server-5]: process started with pid [11047]
+[INFO] [smoother_server-6]: process started with pid [11049]
+[INFO] [planner_server-7]: process started with pid [11052]
+[INFO] [behavior_server-8]: process started with pid [11063]
+[INFO] [bt_navigator-9]: process started with pid [11066]
+[INFO] [waypoint_follower-10]: process started with pid [11068]
+[INFO] [velocity_smoother-11]: process started with pid [11071]
+[INFO] [lifecycle_manager-12]: process started with pid [11105]
+[async_slam_toolbox_node-2] [INFO] [1675124398.035791539] [slam_toolbox]: Node using stack size 40000000
+[smoother_server-6] [INFO] [1675124398.144337390] [smoother_server]: 
+[smoother_server-6] 	smoother_server lifecycle node launched. 
+[smoother_server-6] 	Waiting on external lifecycle transitions to activate
+[smoother_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-6] [INFO] [1675124398.161286240] [smoother_server]: Creating smoother server
+[behavior_server-8] [INFO] [1675124398.164563094] [behavior_server]: 
+[behavior_server-8] 	behavior_server lifecycle node launched. 
+[behavior_server-8] 	Waiting on external lifecycle transitions to activate
+[behavior_server-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-5] [INFO] [1675124398.175987954] [controller_server]: 
+[controller_server-5] 	controller_server lifecycle node launched. 
+[controller_server-5] 	Waiting on external lifecycle transitions to activate
+[controller_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-5] [INFO] [1675124398.183722932] [controller_server]: Creating controller server
+[controller_server-5] [INFO] [1675124398.244130010] [local_costmap.local_costmap]: 
+[controller_server-5] 	local_costmap lifecycle node launched. 
+[controller_server-5] 	Waiting on external lifecycle transitions to activate
+[controller_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-5] [INFO] [1675124398.247264304] [local_costmap.local_costmap]: Creating Costmap
+[planner_server-7] [INFO] [1675124398.282809983] [planner_server]: 
+[planner_server-7] 	planner_server lifecycle node launched. 
+[planner_server-7] 	Waiting on external lifecycle transitions to activate
+[planner_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-7] [INFO] [1675124398.290794537] [planner_server]: Creating
+[bt_navigator-9] [INFO] [1675124398.368331190] [bt_navigator]: 
+[bt_navigator-9] 	bt_navigator lifecycle node launched. 
+[bt_navigator-9] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-9] [INFO] [1675124398.371666661] [bt_navigator]: Creating
+[waypoint_follower-10] [INFO] [1675124398.377056134] [waypoint_follower]: 
+[waypoint_follower-10] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-10] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-10] [INFO] [1675124398.383126886] [waypoint_follower]: Creating
+[planner_server-7] [INFO] [1675124398.387414733] [global_costmap.global_costmap]: 
+[planner_server-7] 	global_costmap lifecycle node launched. 
+[planner_server-7] 	Waiting on external lifecycle transitions to activate
+[planner_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-7] [INFO] [1675124398.390484956] [global_costmap.global_costmap]: Creating Costmap
+[velocity_smoother-11] [INFO] [1675124398.435729359] [velocity_smoother]: 
+[velocity_smoother-11] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-11] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-12] [INFO] [1675124398.879838665] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-12] [INFO] [1675124398.902836130] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[async_slam_toolbox_node-2] [INFO] [1675124398.907659381] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-2] [INFO] [1675124398.929856634] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[lifecycle_manager-12] [INFO] [1675124399.051362731] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-12] [INFO] [1675124399.052523242] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-5] [INFO] [1675124399.053202515] [controller_server]: Configuring controller interface
+[controller_server-5] [INFO] [1675124399.053414330] [controller_server]: getting goal checker plugins..
+[controller_server-5] [INFO] [1675124399.053522925] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-5] [INFO] [1675124399.053569352] [local_costmap.local_costmap]: Configuring
+[controller_server-5] [INFO] [1675124399.066988248] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-5] [INFO] [1675124399.091911848] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-5] [INFO] [1675124399.133915472] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-5] [INFO] [1675124399.135590279] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-5] [INFO] [1675124399.149662636] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[default_server_endpoint-3] [0m[INFO] [1675124399.150736056] [TCPServer]: Starting server on 0.0.0.0:10000[0m
+[controller_server-5] [INFO] [1675124399.183920956] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-5] [INFO] [1675124399.186372569] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-5] [INFO] [1675124399.187577076] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-5] [INFO] [1675124399.190553879] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-5] [INFO] [1675124399.193466626] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-5] [INFO] [1675124399.221454251] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-5] [INFO] [1675124399.223773657] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1675124399.224346288] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-5] [INFO] [1675124399.226498583] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1675124399.226989346] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-5] [INFO] [1675124399.227901093] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1675124399.228378096] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-5] [INFO] [1675124399.229765380] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1675124399.230275860] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-5] [INFO] [1675124399.231630741] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1675124399.232133647] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-5] [INFO] [1675124399.234580351] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1675124399.235755679] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-5] [INFO] [1675124399.237700326] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1675124399.237765534] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-12] [INFO] [1675124399.259852176] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-6] [INFO] [1675124399.260227219] [smoother_server]: Configuring smoother server
+[smoother_server-6] [INFO] [1675124399.281442380] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-6] [INFO] [1675124399.283271156] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-12] [INFO] [1675124399.303715077] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-7] [INFO] [1675124399.304175509] [planner_server]: Configuring
+[planner_server-7] [INFO] [1675124399.304243271] [global_costmap.global_costmap]: Configuring
+[planner_server-7] [INFO] [1675124399.319415374] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-7] [INFO] [1675124399.330888495] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-7] [INFO] [1675124399.334736349] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-7] [INFO] [1675124399.335370135] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-7] [INFO] [1675124399.340409023] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-7] [INFO] [1675124399.357269000] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-7] [INFO] [1675124399.357332530] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-7] [INFO] [1675124399.362034337] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-7] [INFO] [1675124399.388929479] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-7] [INFO] [1675124399.388997901] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-7] [INFO] [1675124399.391653858] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-12] [INFO] [1675124399.423354767] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-8] [INFO] [1675124399.423723463] [behavior_server]: Configuring
+[behavior_server-8] [INFO] [1675124399.442824919] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-8] [INFO] [1675124399.444013998] [behavior_server]: Configuring spin
+[behavior_server-8] [INFO] [1675124399.471783988] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-8] [INFO] [1675124399.473066480] [behavior_server]: Configuring backup
+[behavior_server-8] [INFO] [1675124399.494430145] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-8] [INFO] [1675124399.495626196] [behavior_server]: Configuring drive_on_heading
+[behavior_server-8] [INFO] [1675124399.513258604] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-8] [INFO] [1675124399.514405074] [behavior_server]: Configuring wait
+[default_server_endpoint-3] [0m[INFO] [1675124399.518793065] [TCPServer]: Connection from 192.168.1.15[0m
+[lifecycle_manager-12] [INFO] [1675124399.534352831] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-9] [INFO] [1675124399.534794669] [bt_navigator]: Configuring
+[lifecycle_manager-12] [INFO] [1675124399.721333407] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-10] [INFO] [1675124399.722049837] [waypoint_follower]: Configuring
+[waypoint_follower-10] [INFO] [1675124399.749245126] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-12] [INFO] [1675124399.750856934] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-11] [INFO] [1675124399.751183985] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-12] [INFO] [1675124399.757107173] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-5] [INFO] [1675124399.757344905] [controller_server]: Activating
+[controller_server-5] [INFO] [1675124399.757392317] [local_costmap.local_costmap]: Activating
+[controller_server-5] [INFO] [1675124399.757417626] [local_costmap.local_costmap]: Checking transform
+[controller_server-5] [INFO] [1675124399.757459320] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[default_server_endpoint-3] [0m[INFO] [1675124399.843727536] [TCPServer]: RegisterSubscriber(/tf, <class 'tf2_msgs.msg._tf_message.TFMessage'>) OK[0m
+[rviz2-4] [INFO] [1675124399.864454638] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-4] [INFO] [1675124399.864584894] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[default_server_endpoint-3] [0m[INFO] [1675124399.867934797] [TCPServer]: RegisterSubscriber(cmd_vel, <class 'geometry_msgs.msg._twist.Twist'>) OK[0m
+[rviz2-4] [INFO] [1675124399.903490596] [rviz2]: Stereo is NOT SUPPORTED
+[default_server_endpoint-3] [0m[INFO] [1675124400.002097584] [TCPServer]: RegisterSubscriber(/batterymarker, <class 'visualization_msgs.msg._marker.Marker'>) OK[0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.003771963] [TCPServer]: Not registered to publish topic 'iotbattery'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.005416208] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.006840234] [TCPServer]: Not registered to publish topic 'iotbattery'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.008381242] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.009715629] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.010976571] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.012182020] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.013444576] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.014650633] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.015763295] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.016860227] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.017996392] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.019226616] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.020423110] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.021613326] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.022750553] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.023913719] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.024943968] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.026021873] [TCPServer]: Not registered to publish topic 'clock'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.027261894] [TCPServer]: Not registered to publish topic 'clock'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.028482776] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.029742159] [TCPServer]: Not registered to publish topic 'clock'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.030918651] [TCPServer]: Not registered to publish topic 'clock'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.032190428] [TCPServer]: Not registered to publish topic 'clock'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.033422625] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.034742758] [TCPServer]: Not registered to publish topic 'clock'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.035989613] [TCPServer]: Not registered to publish topic '/tf'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.037070998] [TCPServer]: Not registered to publish topic 'clock'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.038970486] [TCPServer]: Not registered to publish topic 'clock'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.040794493] [TCPServer]: Not registered to publish topic 'clock'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [31m[ERROR] [1675124400.042086491] [TCPServer]: Not registered to publish topic '/scan'! Valid publish topics are: dict_keys([]) [0m
+[default_server_endpoint-3] [0m[INFO] [1675124400.067570854] [TCPServer]: RegisterPublisher(/tf, <class 'tf2_msgs.msg._tf_message.TFMessage'>) OK[0m
+[default_server_endpoint-3] [0m[INFO] [1675124400.094767086] [TCPServer]: RegisterPublisher(clock, <class 'rosgraph_msgs.msg._clock.Clock'>) OK[0m
+[default_server_endpoint-3] [0m[INFO] [1675124400.125007640] [TCPServer]: RegisterPublisher(/scan, <class 'sensor_msgs.msg._laser_scan.LaserScan'>) OK[0m
+[default_server_endpoint-3] [0m[INFO] [1675124400.158887593] [TCPServer]: RegisterPublisher(iotbattery, <class 'std_msgs.msg._u_int16.UInt16'>) OK[0m
+[async_slam_toolbox_node-2] Registering sensor: [Custom Described Lidar]
+[async_slam_toolbox_node-2] [INFO] [1675124400.184905402] [slam_toolbox]: Message Filter dropping message: frame 'base_scan' at time 592.199 for reason 'discarding message because the queue is full'
+[controller_server-5] [INFO] [1675124400.257677455] [local_costmap.local_costmap]: start
+[controller_server-5] [INFO] [1675124400.259724974] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-12] [INFO] [1675124400.551726671] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-12] [INFO] [1675124400.551807528] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-6] [INFO] [1675124400.552293075] [smoother_server]: Activating
+[smoother_server-6] [INFO] [1675124400.552348226] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-12] [INFO] [1675124400.659106483] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-12] [INFO] [1675124400.659308056] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-7] [INFO] [1675124400.660734494] [planner_server]: Activating
+[planner_server-7] [INFO] [1675124400.660868577] [global_costmap.global_costmap]: Activating
+[planner_server-7] [INFO] [1675124400.660928755] [global_costmap.global_costmap]: Checking transform
+[planner_server-7] [INFO] [1675124400.661194668] [global_costmap.global_costmap]: start
+[planner_server-7] [INFO] [1675124400.667358697] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-7] [INFO] [1675124400.675424747] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[rviz2-4] [INFO] [1675124400.712512822] [rviz2]: Trying to create a map of size 100 x 100 using 1 swatches
+[rviz2-4] [ERROR] [1675124400.731200428] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-4] active samplers with a different type refer to the same texture image unit
+[lifecycle_manager-12] [INFO] [1675124400.793787654] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-12] [INFO] [1675124400.793892522] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-8] [INFO] [1675124400.794422095] [behavior_server]: Activating
+[behavior_server-8] [INFO] [1675124400.794479870] [behavior_server]: Activating spin
+[behavior_server-8] [INFO] [1675124400.794517789] [behavior_server]: Activating backup
+[behavior_server-8] [INFO] [1675124400.794548651] [behavior_server]: Activating drive_on_heading
+[behavior_server-8] [INFO] [1675124400.794572282] [behavior_server]: Activating wait
+[behavior_server-8] [INFO] [1675124400.794600032] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-12] [INFO] [1675124400.905388496] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-12] [INFO] [1675124400.905517707] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-9] [INFO] [1675124400.906904872] [bt_navigator]: Activating
+[bt_navigator-9] [INFO] [1675124401.066917699] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-12] [INFO] [1675124401.176339442] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-12] [INFO] [1675124401.176487514] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-10] [INFO] [1675124401.178126446] [waypoint_follower]: Activating
+[waypoint_follower-10] [INFO] [1675124401.178266123] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-12] [INFO] [1675124401.293232347] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-12] [INFO] [1675124401.293378164] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-11] [INFO] [1675124401.294181973] [velocity_smoother]: Activating
+[velocity_smoother-11] [INFO] [1675124401.294321712] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-12] [INFO] [1675124401.415058365] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-12] [INFO] [1675124401.415165265] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-12] [INFO] [1675124401.415208681] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[planner_server-7] [INFO] [1675124404.036279852] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 605 X 550 at 0.050000 m/pix
+[rviz2-4] [INFO] [1675124404.053679528] [rviz2]: Trying to create a map of size 605 x 550 using 1 swatches
+[async_slam_toolbox_node-2] [INFO] [1675124404.282443761] [slam_toolbox]: Message Filter dropping message: frame 'base_scan' at time 596.654 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-2] [INFO] [1675124405.106393094] [slam_toolbox]: Message Filter dropping message: frame 'base_scan' at time 597.480 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-2] [INFO] [1675124405.415824299] [slam_toolbox]: Message Filter dropping message: frame 'base_scan' at time 597.790 for reason 'discarding message because the queue is full'
+[rviz2-4] [INFO] [1675124405.685503341] [rviz2]: Trying to create a map of size 605 x 550 using 1 swatches
+[async_slam_toolbox_node-2] [INFO] [1675124406.033874190] [slam_toolbox]: Message Filter dropping message: frame 'base_scan' at time 598.407 for reason 'discarding message because the queue is full'
+[rviz2-4] [INFO] [1675124409.748963753] [rviz]: Message Filter dropping message: frame 'base_scan' at time 592.199 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[default_server_endpoint-3] [31m[ERROR] [1675124413.353241885] [TCPServer]: Exception: No more data available[0m
+[default_server_endpoint-3] [0m[INFO] [1675124413.354764749] [TCPServer]: Exception [Errno 32] Broken pipe[0m
+[default_server_endpoint-3] [0m[INFO] [1675124413.357151924] [TCPServer]: Disconnected from 192.168.1.15[0m
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[velocity_smoother-11] [INFO] [1675124416.897450927] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-10] [INFO] [1675124416.897472931] [rclcpp]: signal_handler(signum=2)
+[async_slam_toolbox_node-2] [INFO] [1675124416.897564510] [rclcpp]: signal_handler(signum=2)
+[behavior_server-8] [INFO] [1675124416.897771517] [rclcpp]: signal_handler(signum=2)
+[marker-1] Traceback (most recent call last):
+[marker-1]   File "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/py_marker/marker", line 33, in <module>
+[marker-1]     sys.exit(load_entry_point('py-marker==0.0.0', 'console_scripts', 'marker')())
+[marker-1]   File "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages/py_marker/py_marker.py", line 53, in main
+[marker-1]     rclpy.spin_once(node)
+[marker-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 202, in spin_once
+[marker-1]     executor.spin_once(timeout_sec=timeout_sec)
+[marker-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 704, in spin_once
+[marker-1]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[marker-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 690, in wait_for_ready_callbacks
+[marker-1]     return next(self._cb_iter)
+[marker-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 588, in _wait_for_ready_callbacks
+[marker-1]     wait_set.wait(timeout_nsec)
+[marker-1] KeyboardInterrupt
+[default_server_endpoint-3] Traceback (most recent call last):
+[default_server_endpoint-3]   File "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint/default_server_endpoint", line 33, in <module>
+[default_server_endpoint-3]     sys.exit(load_entry_point('ros-tcp-endpoint==0.0.1', 'console_scripts', 'default_server_endpoint')())
+[default_server_endpoint-3]   File "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/default_server_endpoint.py", line 14, in main
+[default_server_endpoint-3]     tcp_server.setup_executor()
+[default_server_endpoint-3]   File "/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/server.py", line 154, in setup_executor
+[default_server_endpoint-3]     executor.spin()
+[default_server_endpoint-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 279, in spin
+[default_server_endpoint-3]     self.spin_once()
+[default_server_endpoint-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 757, in spin_once
+[default_server_endpoint-3]     self._spin_once_impl(timeout_sec)
+[default_server_endpoint-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 743, in _spin_once_impl
+[default_server_endpoint-3]     handler, entity, node = self.wait_for_ready_callbacks(
+[default_server_endpoint-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 690, in wait_for_ready_callbacks
+[default_server_endpoint-3]     return next(self._cb_iter)
+[default_server_endpoint-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 588, in _wait_for_ready_callbacks
+[default_server_endpoint-3]     wait_set.wait(timeout_nsec)
+[default_server_endpoint-3] KeyboardInterrupt
+[rviz2-4] [INFO] [1675124416.901314409] [rclcpp]: signal_handler(signum=2)
+[smoother_server-6] [INFO] [1675124416.903219839] [rclcpp]: signal_handler(signum=2)
+[ERROR] [default_server_endpoint-3]: process has died [pid 11043, exit code -2, cmd '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint/default_server_endpoint --ros-args --params-file /tmp/launch_params_3ruo_8ib --params-file /tmp/launch_params_wxpivxsm'].
+[controller_server-5] [INFO] [1675124416.903608976] [rclcpp]: signal_handler(signum=2)
+[planner_server-7] [INFO] [1675124416.908112120] [rclcpp]: signal_handler(signum=2)
+[planner_server-7] [INFO] [1675124416.981122566] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[lifecycle_manager-12] [INFO] [1675124416.908671441] [rclcpp]: signal_handler(signum=2)
+[INFO] [lifecycle_manager-12]: process has finished cleanly [pid 11105]
+[bt_navigator-9] [INFO] [1675124416.909900873] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-11] [INFO] [1675124417.003838459] [velocity_smoother]: Destroying
+[waypoint_follower-10] [INFO] [1675124417.045690100] [waypoint_follower]: Destroying
+[planner_server-7] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[planner_server-7]          at line 127 in ./src/class_loader.cpp
+[planner_server-7] terminate called without an active exception
+[controller_server-5] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[controller_server-5]          at line 127 in ./src/class_loader.cpp
+[controller_server-5] terminate called without an active exception
+[smoother_server-6] [INFO] [1675124417.089917670] [smoother_server]: Destroying
+[behavior_server-8] [INFO] [1675124417.179671759] [behavior_server]: Destroying
+[INFO] [async_slam_toolbox_node-2]: process has finished cleanly [pid 11041]
+[INFO] [waypoint_follower-10]: process has finished cleanly [pid 11068]
+[INFO] [smoother_server-6]: process has finished cleanly [pid 11049]
+[ERROR] [marker-1]: process has died [pid 11039, exit code -2, cmd '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/py_marker/marker --ros-args'].
+[INFO] [velocity_smoother-11]: process has finished cleanly [pid 11071]
+[bt_navigator-9] [INFO] [1675124417.342840005] [bt_navigator]: Destroying
+[INFO] [behavior_server-8]: process has finished cleanly [pid 11063]
+[INFO] [bt_navigator-9]: process has finished cleanly [pid 11066]
+[INFO] [rviz2-4]: process has finished cleanly [pid 11045]
+[ERROR] [planner_server-7]: process has died [pid 11052, exit code -6, cmd '/opt/ros/humble/lib/nav2_planner/planner_server --ros-args --log-level info --ros-args -r __node:=planner_server -p use_sim_time:=True --params-file /tmp/tmps8sy9o93 -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [controller_server-5]: process has died [pid 11047, exit code -6, cmd '/opt/ros/humble/lib/nav2_controller/controller_server --ros-args --log-level info --ros-args -p use_sim_time:=True --params-file /tmp/tmpn76bff3t -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].

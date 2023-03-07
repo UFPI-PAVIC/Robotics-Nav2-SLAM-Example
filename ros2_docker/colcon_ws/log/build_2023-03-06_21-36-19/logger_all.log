@@ -1,0 +1,278 @@
+[2.959s] DEBUG:colcon:Command line arguments: ['/home/jpedr/.local/bin/colcon', 'build']
+[2.959s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdd6044ff40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdd60dfd960>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdd60dfd960>>)
+[3.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.141s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws'
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[3.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[3.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[3.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[3.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[3.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[3.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[3.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[3.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[3.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[3.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extensions ['ignore', 'ignore_ament_install']
+[3.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'ignore'
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'ignore_ament_install'
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extensions ['colcon_pkg']
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'colcon_pkg'
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extensions ['colcon_meta']
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'colcon_meta'
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extensions ['ros']
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'ros'
+[3.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_node' with type 'ros.ament_python' and name 'control_node'
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_marker) by extensions ['ignore', 'ignore_ament_install']
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_marker) by extension 'ignore'
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_marker) by extension 'ignore_ament_install'
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_marker) by extensions ['colcon_pkg']
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_marker) by extension 'colcon_pkg'
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_marker) by extensions ['colcon_meta']
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_marker) by extension 'colcon_meta'
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_marker) by extensions ['ros']
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_marker) by extension 'ros'
+[3.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_marker' with type 'ros.ament_python' and name 'py_marker'
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extensions ['ignore', 'ignore_ament_install']
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'ignore'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'ignore_ament_install'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extensions ['colcon_pkg']
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'colcon_pkg'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extensions ['colcon_meta']
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'colcon_meta'
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extensions ['ros']
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'ros'
+[3.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_slam_example' with type 'ros.ament_python' and name 'unity_slam_example'
+[3.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.466s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install
+[3.488s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/humble
+[3.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.782s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_args' from command line to 'None'
+[3.786s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_target' from command line to 'None'
+[3.786s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.787s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.787s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.787s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.787s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.788s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.788s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.788s] DEBUG:colcon.colcon_core.verb:Building package 'control_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node', 'merge_install': False, 'path': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/control_node', 'symlink_install': False, 'test_result_base': None}
+[3.818s] Level 5:colcon.colcon_core.verb:set package 'py_marker' build argument 'cmake_args' from command line to 'None'
+[3.823s] Level 5:colcon.colcon_core.verb:set package 'py_marker' build argument 'cmake_target' from command line to 'None'
+[3.823s] Level 5:colcon.colcon_core.verb:set package 'py_marker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.824s] Level 5:colcon.colcon_core.verb:set package 'py_marker' build argument 'cmake_clean_cache' from command line to 'False'
+[3.824s] Level 5:colcon.colcon_core.verb:set package 'py_marker' build argument 'cmake_clean_first' from command line to 'False'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'py_marker' build argument 'cmake_force_configure' from command line to 'False'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'py_marker' build argument 'ament_cmake_args' from command line to 'None'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'py_marker' build argument 'catkin_cmake_args' from command line to 'None'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'py_marker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.825s] DEBUG:colcon.colcon_core.verb:Building package 'py_marker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker', 'merge_install': False, 'path': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/py_marker', 'symlink_install': False, 'test_result_base': None}
+[3.864s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.871s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/ROS-TCP-Endpoint', 'symlink_install': False, 'test_result_base': None}
+[3.901s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_args' from command line to 'None'
+[3.904s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_target' from command line to 'None'
+[3.904s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.904s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_clean_cache' from command line to 'False'
+[3.904s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_clean_first' from command line to 'False'
+[3.904s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_force_configure' from command line to 'False'
+[3.904s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'ament_cmake_args' from command line to 'None'
+[3.905s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'catkin_cmake_args' from command line to 'None'
+[3.905s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.905s] DEBUG:colcon.colcon_core.verb:Building package 'unity_slam_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example', 'merge_install': False, 'path': '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/unity_slam_example', 'symlink_install': False, 'test_result_base': None}
+[3.911s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.983s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.984s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/control_node' with build type 'ament_python'
+[3.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_node', 'ament_prefix_path')
+[4.035s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/hook/ament_prefix_path.ps1'
+[4.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/hook/ament_prefix_path.dsv'
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/hook/ament_prefix_path.sh'
+[4.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.163s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/py_marker' with build type 'ament_python'
+[4.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_marker', 'ament_prefix_path')
+[4.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/hook/ament_prefix_path.ps1'
+[4.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/hook/ament_prefix_path.dsv'
+[4.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/hook/ament_prefix_path.sh'
+[4.212s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.302s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/ROS-TCP-Endpoint' with build type 'ament_python'
+[4.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[4.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[4.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[4.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[4.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.404s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/unity_slam_example' with build type 'ament_python'
+[4.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_slam_example', 'ament_prefix_path')
+[4.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/hook/ament_prefix_path.ps1'
+[4.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/hook/ament_prefix_path.dsv'
+[4.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/hook/ament_prefix_path.sh'
+[4.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.111s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/control_node'
+[6.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.813s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/py_marker'
+[7.834s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.158s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/ROS-TCP-Endpoint'
+[9.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.530s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/unity_slam_example'
+[10.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[13.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/unity_slam_example': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/install.log --single-version-externally-managed
+[13.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/control_node': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/install.log --single-version-externally-managed
+[14.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/py_marker': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_marker build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/install.log --single-version-externally-managed
+[15.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/unity_slam_example' returned '0': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/unity_slam_example/install.log --single-version-externally-managed
+[15.209s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example' for CMake module files
+[15.210s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example' for CMake config files
+[15.211s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib'
+[15.212s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/bin'
+[15.212s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/pkgconfig/unity_slam_example.pc'
+[15.213s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/lib/python3.10/site-packages'
+[15.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_slam_example', 'pythonpath')
+[15.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/hook/pythonpath.ps1'
+[15.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/hook/pythonpath.dsv'
+[15.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/hook/pythonpath.sh'
+[15.301s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/bin'
+[15.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_slam_example)
+[15.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/package.ps1'
+[15.374s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/package.dsv'
+[15.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/package.sh'
+[15.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/package.bash'
+[15.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/unity_slam_example/package.zsh'
+[15.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/unity_slam_example/share/colcon-core/packages/unity_slam_example)
+[15.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[15.860s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint' for CMake module files
+[15.866s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint' for CMake config files
+[15.875s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib'
+[15.876s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/bin'
+[15.876s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[15.877s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[15.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[15.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[15.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[15.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[15.922s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/bin'
+[15.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[15.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[15.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[15.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[15.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[15.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[15.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[16.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/control_node' returned '0': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/control_node/install.log --single-version-externally-managed
+[16.541s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node' for CMake module files
+[16.543s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node' for CMake config files
+[16.555s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib'
+[16.556s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/bin'
+[16.556s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/pkgconfig/control_node.pc'
+[16.557s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/lib/python3.10/site-packages'
+[16.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_node', 'pythonpath')
+[16.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/hook/pythonpath.ps1'
+[16.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/hook/pythonpath.dsv'
+[16.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/hook/pythonpath.sh'
+[16.601s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/bin'
+[16.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_node)
+[16.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/package.ps1'
+[16.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/package.dsv'
+[16.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/package.sh'
+[16.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/package.bash'
+[16.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/control_node/package.zsh'
+[16.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/control_node/share/colcon-core/packages/control_node)
+[16.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/src/py_marker' returned '0': PYTHONPATH=/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_marker build --build-base /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/build install --prefix /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker --record /home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/build/py_marker/install.log --single-version-externally-managed
+[16.994s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker' for CMake module files
+[16.995s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker' for CMake config files
+[16.997s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib'
+[16.997s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/bin'
+[16.997s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/pkgconfig/py_marker.pc'
+[16.998s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/lib/python3.10/site-packages'
+[16.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_marker', 'pythonpath')
+[17.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/hook/pythonpath.ps1'
+[17.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/hook/pythonpath.dsv'
+[17.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/hook/pythonpath.sh'
+[17.022s] Level 1:colcon.colcon_core.environment:checking '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/bin'
+[17.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_marker)
+[17.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/package.ps1'
+[17.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/package.dsv'
+[17.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/package.sh'
+[17.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/package.bash'
+[17.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/py_marker/package.zsh'
+[17.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/py_marker/share/colcon-core/packages/py_marker)
+[17.055s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.056s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.056s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.056s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.104s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[17.104s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.104s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.104s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.197s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/local_setup.ps1'
+[17.218s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/_local_setup_util_ps1.py'
+[17.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/setup.ps1'
+[17.239s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/local_setup.sh'
+[17.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/_local_setup_util_sh.py'
+[17.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/setup.sh'
+[17.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/local_setup.bash'
+[17.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/setup.bash'
+[17.293s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/local_setup.zsh'
+[17.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jpedr/Documents/Robotics-Nav2-SLAM-Example/ros2_docker/colcon_ws/install/setup.zsh'
